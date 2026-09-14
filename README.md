@@ -1,4 +1,4 @@
-# Utsava Raj Portfolio
+# Utsava Raj | Portfolio
 
 Welcome to my personal portfolio website.
 
@@ -44,12 +44,6 @@ portfolio/
 └── package-lock.json
 ```
 
-## Run Locally
-
-```bash
-npm install
-npm run dev
-```
 
 ## Build for Production
 
