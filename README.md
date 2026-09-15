@@ -1,4 +1,4 @@
-# Utsava Raj Portfolio
+# Utsava Raj | Portfolio
 
 Welcome to my personal portfolio website.
 
@@ -42,18 +42,5 @@ portfolio/
 ├── vite.config.js
 ├── README.md
 └── package-lock.json
-```
-
-## Run Locally
-
-```bash
-npm install
-npm run dev
-```
-
-## Build for Production
-
-```bash
-npm run build
 ```
 

@@ -1,9 +1,9 @@
+import profilePhoto from './assets/utsava.jpeg';
 const GithubIcon = () => (
   <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
     <path d="M12 2C6.48 2 2 6.57 2 12.21c0 4.47 2.87 8.26 6.84 9.6.5.1.68-.22.68-.49 0-.24-.01-1.04-.02-1.9-2.78.61-3.37-1.35-3.37-1.35-.45-1.17-1.1-1.48-1.1-1.48-.9-.62.07-.61.07-.61 1 .07 1.53 1.04 1.53 1.04.89 1.53 2.33 1.09 2.9.83.09-.65.35-1.09.63-1.34-2.22-.26-4.56-1.12-4.56-4.97 0-1.1.39-2 .99-2.71-.1-.26-.43-1.3.1-2.71 0 0 .84-.27 2.75 1.03A9.4 9.4 0 0 1 12 7.92a9.4 9.4 0 0 1 2.5.34c1.91-1.3 2.74-1.03 2.74-1.03.54 1.41.21 2.45.1 2.71.62.7.98 1.61.98 2.71 0 3.86-2.34 4.7-4.57 4.96.36.32.68.93.68 1.88 0 1.36-.01 2.46-.01 2.8 0 .27.18.6.69.49A10.21 10.21 0 0 0 22 12.21C22 6.57 17.52 2 12 2Z" fill="currentColor" />
   </svg>
 );
-
 const LinkedinIcon = () => (
   <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
     <path d="M6.94 8.5A1.56 1.56 0 1 1 6.9 5.38a1.56 1.56 0 0 1 .04 3.12ZM5.5 9.8h2.8v8.7H5.5V9.8Zm4.7 0h2.68v1.18h.04c.37-.7 1.28-1.44 2.65-1.44 2.83 0 3.35 1.86 3.35 4.28v6.68h-2.8v-6.25c0-1.49-.03-3.4-2.08-3.4-2.09 0-2.4 1.63-2.4 3.3v6.35h-2.8V9.8Z" fill="currentColor" />
@@ -27,11 +27,11 @@ const skills = [
 
 const projects = [
   {
-    title: 'Northstar Labs Dashboard',
-    type: 'Full-Stack Dashboard',
+    title: 'Projects Coming Soon',
+    type: 'Learning & Development',
     description:
-      'Developed a real-time analytics platform for product and operations teams to track KPIs, customer retention, and platform health with a fast, responsive interface.',
-    tags: ['React', 'Node.js', 'REST APIs'],
+      'Currently learning Java, DSA, React and Full Stack Development. Working on building my first real-world projects.',
+    tags: ['Java', 'DSA', 'React'],
   },
 ];
 
@@ -79,7 +79,7 @@ function App() {
             <div className="panel-card profile-card">
               <img
                 className="profile-photo"
-                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80"
+                src={profilePhoto}
                 alt="Utsava Raj portrait"
               />
               <div className="profile-info">
