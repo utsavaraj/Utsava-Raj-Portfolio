@@ -27,7 +27,7 @@ const skills = [
 
 const projects = [
   {
-    title: 'Projects Coming Soon',
+    title: 'Projects Uploading Soon',
     type: 'Learning & Development',
     description:
       'Currently learning Java, DSA, React and Full Stack Development. Working on building my first real-world projects.',
