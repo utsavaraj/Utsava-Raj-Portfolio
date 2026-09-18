@@ -95,8 +95,9 @@ function App() {
             <h2>I build software that is practical, scalable, and built for real users.</h2>
           </div>
           <div className="about-grid">
+            
             <p>
-              I’m a software developer who enjoys turning ideas into working products through clean code, thoughtful architecture, and a strong focus on user experience. I work across front-end and back-end development to build end-to-end solutions.
+              I’m currently pursuing B.Tech in Computer Science Engineering and have a strong interest in software development. I enjoy learning new technologies, solving coding challenges, and building projects that help me gain practical experience.
             </p>
             <p>
               My work involves solving technical problems, creating maintainable systems, and collaborating with teams to deliver reliable features that support productivity, performance, and business growth.
@@ -195,7 +196,7 @@ function App() {
           </a>
         </div>
       </footer>
-      <div className="copyright">
+      <div className="copyright">npm run dev
         © 2026 Utsava Raj. All rights reserved.
       </div>
     </div>
